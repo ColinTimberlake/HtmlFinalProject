@@ -1,0 +1,27 @@
+html {
+    text-align: center;
+}
+
+header {
+    position: static;
+    display: inline-flex;
+    height: 64px;
+    width: 100%;
+}
+
+header h2 {
+    padding: 0 8px;
+    position: relative;
+    left: 725px;
+}
+
+.banner {
+    display: inline-flex;
+    align-items: center;
+    background-color: lightslategrey;
+}
+
+.banner img {
+    height:auto;
+    width:60%;
+}
