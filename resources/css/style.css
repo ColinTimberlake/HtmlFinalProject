@@ -25,3 +25,22 @@ header h2 {
     height:auto;
     width:60%;
 }
+
+.campus-life {
+    display: inline-flex;
+}
+
+.practice {
+    margin: 32px 24px;
+    border: 1px solid grey
+}
+
+.practice img {
+    width: 80%;
+    height: auto;
+}
+
+.right {
+    width: 40%;
+    height: auto;
+}
