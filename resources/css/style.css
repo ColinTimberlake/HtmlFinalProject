@@ -44,3 +44,83 @@ header h2 {
     width: 40%;
     height: auto;
 }
+
+.orientation {
+    display: inline-flex;
+}
+
+.orientation img {
+    height: auto;
+    width:35%;
+}
+
+.our-campus {
+    display: inline-flex;
+}
+
+.our-campus img {
+    height: auto;
+    width:35%;
+}
+
+.lecture {
+    display: inline-flex;
+}
+
+.lecture img {
+    height: auto;
+    width:35%;
+    background-color: slategrey;
+}
+
+.courses{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.programmer img {
+    height: auto;
+    width:300px;
+}
+
+.comp-art img {
+    height: auto;
+    width:300px;
+}
+
+.design img {
+    height: auto;
+    width:300px;
+}
+
+.data img {
+    height: auto;
+    width:300px;
+}
+
+.business img {
+    height: auto;
+    width:300px;
+}
+
+.marketing img {
+    height: auto;
+    width:300px;
+}
+
+.exhibit {
+    display:inline-flex;
+}
+
+.fisma img {
+    height: auto;
+    width:35%;
+}
+
+.Now img {
+    height: auto;
+    width:35%;
+}
+
+
+
