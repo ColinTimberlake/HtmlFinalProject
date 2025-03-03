@@ -6,13 +6,23 @@ header {
     position: static;
     display: inline-flex;
     height: 64px;
-    width: 100%;
+    width: 100%;   
 }
 
 header h2 {
-    padding: 0 8px;
+    display:inline-flex;
+    padding-left: 16px;
     position: relative;
-    left: 725px;
+    left: 675px;
+}
+
+header img {
+    height:50px;
+    width: auto;
+}
+
+.mobile{
+    display:none;
 }
 
 .banner {
@@ -22,6 +32,7 @@ header h2 {
 }
 
 .banner img {
+    padding: 32px 0;
     height:auto;
     width:60%;
 }
@@ -43,6 +54,7 @@ header h2 {
 .right {
     width: 40%;
     height: auto;
+    margin-top: 32px;
 }
 
 .orientation {
@@ -76,6 +88,8 @@ header h2 {
 .courses{
     display: inline-flex;
     flex-wrap: wrap;
+    padding: 32px 72px;
+    background-color: grey;
 }
 
 .programmer img {
@@ -122,5 +136,6 @@ header h2 {
     width:35%;
 }
 
+@media only screen and (max-width: 480px) {
 
-
+}
