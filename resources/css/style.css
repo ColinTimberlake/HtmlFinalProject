@@ -9,6 +9,15 @@ header {
     width: 100%;   
 }
 
+.desktop {
+    display: inline-flex;
+}
+
+header h1 {
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
 header h2 {
     display:inline-flex;
     padding-left: 16px;
@@ -136,6 +145,146 @@ header img {
     width:35%;
 }
 
+/* Development of mobile version */
 @media only screen and (max-width: 480px) {
+    
+    .mobile {
+        display: inline-flex
+    }
 
+    .desktop {
+        display: none;
+    }
+    
+    header {
+        position: static;
+        display: inline-flex;
+        height: 64px;
+        width: auto;   
+    }
+    
+    header h2 {
+        display:inline-flex;
+        padding-left: 16px;
+        position: relative;
+        left: 675px;
+    }
+    
+    header img {
+        height:50px;
+        width: auto;
+    }
+    
+    .banner {
+        display: block;
+        align-items: center;
+        background-color: lightslategrey;
+    }
+    
+    .banner img {
+        padding: 32px 0;
+        height:auto;
+        width:60%;
+    }
+    
+    .campus-life {
+        display: inline-flex;
+    }
+    
+    .practice {
+        display: none;
+    }
+    
+    
+    .right {
+        width: cover;
+        height: auto;
+        margin-top: 32px;
+        
+    }
+    
+    .orientation {
+       /* display: inline-flex; */
+       display: block;
+       width:cover;
+    }
+    
+    .orientation img {
+        height: auto;
+        width:120px;
+    }
+    
+    .our-campus {
+        display: block;
+    }
+    
+    .our-campus img {
+        height: auto;
+        width:35%;
+    }
+    
+    .lecture {
+        display: block;
+    }
+    
+    .lecture img {
+        height: auto;
+        width:35%;
+        background-color: slategrey;
+    }
+    
+    .courses{
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 32px 72px;
+        background-color: grey;
+    }
+    
+    .programmer img {
+        display:none;
+    }
+    
+    .comp-art img {
+        display:none;
+    }
+    
+    .design img {
+        display:none;
+    }
+    
+    .data img {
+        display:none;
+    }
+    
+    .business img {
+        display:none;
+    }
+    
+    .marketing img {
+        display:none;
+    }
+    
+    .exhibit {
+        display:inline-flex;
+    }
+    
+    .exhibit h3 {
+        display: none;
+    }
+
+    .exhibit p {
+        display: none;
+    }
+
+    .fisma {
+        display: none;
+    }
+    
+    .Now {
+        display: none;
+    }
+
+    footer .terms {
+        display: none;
+    }
 }
