@@ -1,5 +1,6 @@
 html {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -156,23 +157,10 @@ header img {
         display: none;
     }
     
-    header {
-        position: static;
-        display: inline-flex;
-        height: 64px;
-        width: auto;   
-    }
-    
-    header h2 {
-        display:inline-flex;
-        padding-left: 16px;
-        position: relative;
-        left: 675px;
-    }
-    
     header img {
         height:50px;
         width: auto;
+        margin: 0 30px;
     }
     
     .banner {
@@ -184,7 +172,12 @@ header img {
     .banner img {
         padding: 32px 0;
         height:auto;
-        width:60%;
+        width:100%;
+    }
+
+    .text h2 {
+        
+        font-size: 16px;
     }
     
     .campus-life {
@@ -206,60 +199,97 @@ header img {
     .orientation {
        /* display: inline-flex; */
        display: block;
-       width:cover;
+       width:400px;
     }
     
     .orientation img {
         height: auto;
-        width:120px;
+        width:100%;
+
     }
     
     .our-campus {
         display: block;
+        width:400px;
     }
     
     .our-campus img {
         height: auto;
-        width:35%;
+        width:100%;
     }
     
     .lecture {
         display: block;
+        width:400px;
     }
     
     .lecture img {
         height: auto;
-        width:35%;
+        width:100%;
         background-color: slategrey;
     }
     
     .courses{
-        display: inline-flex;
-        flex-wrap: wrap;
+        display: block;
         padding: 32px 72px;
-        background-color: grey;
+        background-color: white;
     }
     
+    .course-text {
+        display:none;
+    }
+
+    .programmer {
+        background-color: gray;
+        margin-top:16px;
+        margin-bottom: 8px;
+    }
+
     .programmer img {
         display:none;
     }
     
+    .comp-art{
+        background-color: gray;
+        margin-bottom: 8px;
+    }
+
     .comp-art img {
         display:none;
+    }
+
+    .design {
+        background-color: gray;
+        margin-bottom: 8px;
     }
     
     .design img {
         display:none;
     }
     
+    .data {
+        background-color: gray;
+        margin-bottom: 8px;
+    }
+
     .data img {
         display:none;
     }
     
+    .business {
+        background-color: gray;
+        margin-bottom: 8px;
+    }
+
     .business img {
         display:none;
     }
     
+    .marketing {
+        background-color: gray;
+        margin-bottom: 8px;
+    }
+
     .marketing img {
         display:none;
     }
