@@ -175,11 +175,24 @@ header img {
         width:100%;
     }
 
+    .text h1 {
+        font-size: 48px;
+    }
+
     .text h2 {
-        
-        font-size: 16px;
+        color:white;
+        font-weight: 500;
+        font-size: 32px;
     }
     
+    button {
+        border: 3px solid lightgray;
+        border-radius: 16px;
+        padding: 16px 150px;
+        margin-top:24px;
+        margin-bottom:32px;
+    }
+
     .campus-life {
         display: inline-flex;
     }
@@ -197,9 +210,13 @@ header img {
     }
     
     .orientation {
-       /* display: inline-flex; */
        display: block;
        width:400px;
+    }
+
+    .orientation-text {
+        font-size: 20px;
+        font-weight: lighter;
     }
     
     .orientation img {
@@ -212,6 +229,14 @@ header img {
         display: block;
         width:400px;
     }
+
+    .campus-text h1 {
+        font-size: 40px;
+    }
+
+    .campus-text p {
+        font-size: 20px;
+    }
     
     .our-campus img {
         height: auto;
@@ -222,6 +247,14 @@ header img {
         display: block;
         width:400px;
     }
+
+    .lecture-text h1 {
+        font-size: 40px;
+    }
+
+    .lecture-text p {
+        font-size: 20px;
+    }
     
     .lecture img {
         height: auto;
@@ -231,7 +264,6 @@ header img {
     
     .courses{
         display: block;
-        padding: 32px 72px;
         background-color: white;
     }
     
@@ -241,8 +273,17 @@ header img {
 
     .programmer {
         background-color: gray;
-        margin-top:16px;
+        margin-top:8px;
         margin-bottom: 8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
+    }
+
+    .programmer h1 {
+        text-align: left !important;
+        width:350px;
     }
 
     .programmer img {
@@ -252,6 +293,16 @@ header img {
     .comp-art{
         background-color: gray;
         margin-bottom: 8px;
+        margin-top:8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
+    }
+
+    .comp-art h1 {
+        text-align: left !important;
+        width:350px;
     }
 
     .comp-art img {
@@ -261,7 +312,17 @@ header img {
     .design {
         background-color: gray;
         margin-bottom: 8px;
+        margin-top:8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
     }
+
+    .design h1 {
+        text-align: left !important;
+        width:350px;
+    }   
     
     .design img {
         display:none;
@@ -270,7 +331,18 @@ header img {
     .data {
         background-color: gray;
         margin-bottom: 8px;
+        margin-top:8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
     }
+
+    .data h1 {
+        text-align: left !important;
+        width:350px;
+    }
+    
 
     .data img {
         display:none;
@@ -279,6 +351,16 @@ header img {
     .business {
         background-color: gray;
         margin-bottom: 8px;
+        margin-top:8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
+    }
+
+    .business h1 {
+        text-align: left !important;
+        width:350px;
     }
 
     .business img {
@@ -288,6 +370,16 @@ header img {
     .marketing {
         background-color: gray;
         margin-bottom: 8px;
+        margin-top:8px;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-right: 350px;
+        padding-left: 16px;
+    }
+
+    .marketing h1 {
+        text-align: left !important;
+        width:350px;
     }
 
     .marketing img {
