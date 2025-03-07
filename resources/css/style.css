@@ -1,6 +1,7 @@
 html {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:cornflowerblue
 }
 
 header {
@@ -17,6 +18,8 @@ header {
 header h1 {
     justify-content: center;
     margin-bottom: 32px;
+    position: relative;
+    bottom:15px;
 }
 
 header h2 {
@@ -42,9 +45,28 @@ header img {
 }
 
 .banner img {
-    padding: 32px 0;
     height:auto;
-    width:60%;
+    width:100%;
+    margin:32px 24px;
+}
+
+.text h1 {
+    font-size: 56px;
+}
+
+.text h2 {
+    color:white;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 24px;
+}
+
+button {
+    border: 3px solid lightgray;
+    border-radius: 16px;
+    padding: 16px 150px;
+    margin-top:24px;
+    margin-bottom:32px;
 }
 
 .campus-life {
@@ -56,6 +78,14 @@ header img {
     border: 1px solid grey
 }
 
+.practice h1 {
+    font-size: 48px;
+}
+
+.practice p {
+    font-size: 24px;
+}
+
 .practice img {
     width: 80%;
     height: auto;
@@ -63,12 +93,13 @@ header img {
 
 .right {
     width: 40%;
-    height: auto;
+    height: 800px;
     margin-top: 32px;
 }
 
 .orientation {
     display: inline-flex;
+    height:256px;
 }
 
 .orientation img {
@@ -78,6 +109,7 @@ header img {
 
 .our-campus {
     display: inline-flex;
+    height: 256px;
 }
 
 .our-campus img {
@@ -87,6 +119,7 @@ header img {
 
 .lecture {
     display: inline-flex;
+    height:256px;
 }
 
 .lecture img {
@@ -95,8 +128,13 @@ header img {
     background-color: slategrey;
 }
 
+.start h1 {
+    font-size: 64px;
+}
+
 .courses{
     display: inline-flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 32px 72px;
     background-color: grey;
@@ -104,46 +142,123 @@ header img {
 
 .programmer img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .comp-art img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .design img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .data img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .business img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .marketing img {
     height: auto;
-    width:300px;
+    width:400px;
 }
 
 .exhibit {
     display:inline-flex;
 }
 
+.course-text {
+    font-size: 24px;
+}
+
+.courses h1 {
+    font-size: 40px;
+}
+
+.thesis-text {
+    font-size: 40px;
+}
+
+.videotext {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left !important;
+}
+
+.videotext h3 {
+    font-size: 32px;
+    margin-bottom:8px !important;
+}
+
+.videotext p {
+    font-size: 24px;
+}
+
+.fisma {
+    display: inline-flex;
+}
+
+.fisma-text h1 {
+    font-size: 32px;
+    position: relative;
+    top: 75px;
+}
+
+.fisma-text p {
+    font-size: 20px;
+    position: relative;
+    top: 75px;
+}
+
 .fisma img {
     height: auto;
-    width:35%;
+    width:60%;
+    padding: 16px;
 }
 
 .Now img {
     height: auto;
-    width:35%;
+    width:60%;
+    padding: 16px;
+}
+
+.Now {
+    display: inline-flex;
+}
+
+.then h1 {
+    font-size: 32px;
+    position: relative;
+    top: 75px;
+}
+
+.then p {
+    font-size: 24px;
+    position: relative;
+    top: 75px;
+}
+
+.then {
+    align-items: center;
+}
+
+.terms {
+    display:flex;  
+    text-align: left !important;
+    justify-content: space-between;
+}
+
+.privacy  h5 {
+    display:inline-flex;
+    margin-right: 10px;
 }
 
 /* Development of mobile version */
