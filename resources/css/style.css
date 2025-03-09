@@ -4,13 +4,14 @@ html {
     background-color:cornflowerblue
 }
 
+/* Top Header Code */
 header {
     position: static;
     display: inline-flex;
     height: 64px;
     width: 100%;   
 }
-
+/* Desktop Header*/
 .desktop {
     display: inline-flex;
 }
@@ -38,6 +39,7 @@ header img {
     display:none;
 }
 
+/* Banner Image, Text, and Button*/
 .banner {
     display: inline-flex;
     align-items: center;
@@ -69,6 +71,7 @@ button {
     margin-bottom:32px;
 }
 
+/* Campus Life*/
 .campus-life {
     display: inline-flex;
 }
@@ -91,6 +94,7 @@ button {
     height: auto;
 }
 
+/* Right Side of Campus Activities*/
 .right {
     width: 40%;
     height: 800px;
@@ -127,7 +131,7 @@ button {
     width:35%;
     background-color: slategrey;
 }
-
+ /*Course Listing Layout*/
 .start h1 {
     font-size: 64px;
 }
@@ -182,6 +186,7 @@ button {
     font-size: 40px;
 }
 
+/*Thesis Exhibit*/ 
 .thesis-text {
     font-size: 40px;
 }
@@ -250,6 +255,7 @@ button {
     align-items: center;
 }
 
+/* Copyright and Privcy*/
 .terms {
     display:flex;  
     text-align: left !important;
@@ -272,12 +278,14 @@ button {
         display: none;
     }
     
+    /* Header for Mobile Version*/
     header img {
         height:50px;
         width: auto;
         margin: 0 30px;
     }
     
+    /* Banner for Mobile Version */
     .banner {
         display: block;
         align-items: center;
@@ -308,6 +316,7 @@ button {
         margin-bottom:32px;
     }
 
+    /*Campus Section for Mobile Version*/
     .campus-life {
         display: inline-flex;
     }
@@ -377,6 +386,7 @@ button {
         background-color: slategrey;
     }
     
+    /* Section for Courses and Their Layout*/
     .courses{
         display: block;
         background-color: white;
@@ -501,6 +511,7 @@ button {
         display:none;
     }
     
+    /* Thesis Exhibit Video*/
     .exhibit {
         display:inline-flex;
     }
@@ -521,6 +532,7 @@ button {
         display: none;
     }
 
+    /*Footer Terms and Placement*/
     footer .terms {
         display: none;
     }
